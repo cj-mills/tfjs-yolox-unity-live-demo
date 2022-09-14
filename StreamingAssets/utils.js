@@ -1,5 +1,5 @@
 
-// 
+// Perform inference with the provided model and input data
 async function PerformInferenceAsync(model, float32Data, shape) {
 
     const outputData = tf.tidy(() => {
