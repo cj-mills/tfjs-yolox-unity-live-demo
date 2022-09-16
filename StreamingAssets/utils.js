@@ -3,6 +3,7 @@
 async function PerformInferenceAsync(model, float32Data, shape) {
 
     const outputData = tf.tidy(() => {
+        // Initialize the input tensor
         const input_tensor = tf.tensor(float32Data, shape, 'float32');
         // Make a prediction.
         return model.predict(input_tensor);
