@@ -1,1 +1,1 @@
-{"models":[{"name":"YOLOX","path":"/TFJSModels/YOLOX/model.json"},{"name":"YOLOX-nano","path":"/TFJSModels/YOLOX-nano/model.json"}]}
+{"models":[{"name":"YOLOX","path":"/TFJSModels/YOLOX/model.json"},{"name":"YOLOX-nano-fp32","path":"/TFJSModels/YOLOX-nano-fp32/model.json"},{"name":"YOLOX-nano-uint16","path":"/TFJSModels/YOLOX-nano-uint16/model.json"}]}
